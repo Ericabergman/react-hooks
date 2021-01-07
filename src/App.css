@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name {
+  color: gray;
+  border: 3px solid gray;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.title {
+  color: purple;
+  border-color: purple;
+  border-style: dotted;
+}
